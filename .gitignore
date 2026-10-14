@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv*/
+.ipynb_checkpoints/
+
+# ROS 2 / colcon
+build/
+install/
+log/
+
+# Training outputs (publish final checkpoints via GitHub Releases instead)
+logs/
+models/
+wandb/
+outputs/
+videos/
+*.mp4
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
