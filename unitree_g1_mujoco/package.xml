@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>unitree_g1_mujoco</name>
+  <version>0.2.0</version>
+  <description>MuJoCo physics simulation of the Unitree G1: PD posture hold, SB3 PPO standing and mjlab velocity-policy playback.</description>
+  <maintainer email="velayudhana027@gmail.com">velayudhan</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

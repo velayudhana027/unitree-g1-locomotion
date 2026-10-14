@@ -1,0 +1,15 @@
+# MuJoCo scripts and tests
+mujoco>=3.2
+numpy
+onnx
+pytest
+
+# SB3 standing baseline (train_g1_balance.py, test_g1_balance.py)
+gymnasium
+stable-baselines3
+tensorboard
+
+# mjlab policy playback (mjlab_policy_load.py, mjlab_policy_sim2sim.py)
+# The policy was trained with mjlab 1.2.0; see training/mjlab_velocity_flat/requirements-frozen.txt
+# mjlab==1.2.0
+# torch
